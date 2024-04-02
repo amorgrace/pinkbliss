@@ -1,0 +1,140 @@
+{% extends 'mainapp/base.html' %}
+{% load static%}
+{% block content %}
+    <body>
+        <!-- Main body -->
+        <main class="main">
+
+            <!-- Home -->
+
+            <section class="home" id="home">
+                <div class="slider">
+                    <div class="home__container big-grid">
+                        <div class="home__data">
+                            <h1 class="home__title">Shop For <br><span>Exquisite Clothings<br>And Wears</span></h1>
+                            <a href="#collection" class="button">GO SHOPPING <i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+
+                        <img src="/media/home-item-1.png" alt="" class="home__img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Feature Section -->
+            <section class="new section" id="new">
+                <h2 class="section-title">NEW PRODUCTS</h2>
+                <!-- <a href="#" class="section-all">View All</a> -->
+
+                <div class="new__container">
+                    <!-- <div class="new__product">
+                        <div class="new__box">
+                            <div class="new__new">NEW</div>
+                            <img src="./images/watch-1.jpg" alt="" class="new__img">
+                        </div>
+
+                        <div class="new__data">
+                            <h3 class="new__name">Candis Ballet Gown</h3>
+                            <span class="new__price"><i class='bx bx-hash' ></i>230,000</span>
+                            <a href="#" class="button">Add to Cart</a>
+                        </div>
+                    </div> -->
+
+                    <div class="new__box">
+                        <div class="new__icon"><a href="#" class='bx bx-cart-add'></a></div>
+                        <div class="new__image"><img src="/media/shoes-1.jpg" alt=""></div>
+                        <div class="new__data">
+                            <h2 class="new__title">Butxer Heels</h2>
+                            <span class="new__price"><i class='bx bx-hash'></i>230,000</span>
+                        </div>
+                    </div>
+                    <div class="new__box">
+                        <div class="new__icon"><a href="#" class='bx bx-cart-add'></a></div>
+                        <div class="new__image"><img src="/media/shoes-1.jpg" alt=""></div>
+                        <div class="new__data">
+                            <h2 class="new__title">Butxer Heels</h2>
+                            <span class="new__price"><i class='bx bx-hash'></i>230,000</span>
+                        </div>
+                    </div>
+                    <div class="new__box">
+                        <div class="new__icon"><a href="#" class='bx bx-cart-add'></a></div>
+                        <div class="new__image"><img src="/media/shoes-1.jpg" alt=""></div>
+                        <div class="new__data">
+                            <h2 class="new__title">Butxer Heels</h2>
+                            <span class="new__price"><i class='bx bx-hash'></i>230,000</span>
+                        </div>
+                    </div>
+                    <div class="new__box">
+                        <div class="new__icon"><a href="#" class='bx bx-cart-add'></a></div>
+                        <div class="new__image"><img src="/media/shoes-1.jpg" alt=""></div>
+                        <div class="new__data">
+                            <h2 class="new__title">Butxer Heels</h2>
+                            <span class="new__price"><i class='bx bx-hash'></i>230,000</span>
+                        </div>
+                    </div>
+                    <div class="new__box">
+                        <div class="new__icon"><a href="#" class='bx bx-cart-add'></a></div>
+                        <div class="new__image"><img src="/media/shoes-1.jpg" alt=""></div>
+                        <div class="new__data">
+                            <h2 class="new__title">Butxer Heels</h2>
+                            <span class="new__price"><i class='bx bx-hash'></i>230,000</span>
+                        </div>
+                    </div>
+                    <div class="new__box">
+                        <div class="new__icon"><a href="#" class='bx bx-cart-add'></a></div>
+                        <div class="new__image"><img src="/media/shoes-1.jpg" alt=""></div>
+                        <div class="new__data">
+                            <h2 class="new__title">Butxer Heels</h2>
+                            <span class="new__price"><i class='bx bx-hash'></i>230,000</span>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+
+
+            <!-- Collection Section -->
+
+            <section class="collection section" id="collection">
+                <h1 class="section-title">COLLECTION</h1>
+                <div class="collection__container">
+                    <div class="collection__box">
+                        <img src="/media/cloth-collection-1.png" alt="" class="collection__image">
+
+                        <div class="collection__data">
+                            <h2 class="collection__title"><span class="collection__subtitle">Clothes</span></h2>
+                            <a href="#" class="collection__view">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                    <div class="collection__box">                    
+                        <div class="collection__data">
+                            <h2 class="collection__title"><span class="collection__subtitle">Bags</span></h2>
+                            <a href="#" class="collection__view">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                        <img src="/media/bags-collection-1.png" alt="" class="collection__image">
+                    </div>
+                    <div class="collection__box">
+                        <img src="/media/watch-collection-1.png" alt="" class="collection__image">
+
+                        <div class="collection__data">
+                            <h2 class="collection__title"><span class="collection__subtitle">Wrist-Watches</span></h2>
+                            <a href="#" class="collection__view">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                    <div class="collection__box">
+                        <div class="collection__data">
+                            <h2 class="collection__title"><span class="collection__subtitle">Shoes</span></h2>
+                            <a href="#" class="collection__view">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                        <img src="/media/shoes-collection-1.png" alt="" class="collection__image">
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+
+
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+{% endblock content %}
